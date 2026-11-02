@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soil Steps — Affordable Micro-Machinery for Small Farmers</title>
+<meta name="description" content="Soil Steps builds affordable micro-machinery so mechanisation reaches small and marginal farmers, not just large landholdings.">
+
+<link rel="icon" href="assets/logo-icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700;800;900&family=Tiro+Tamil&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- CINEMATIC INTRO — no logo, no loud loader, no forced interaction -->
+<section class="cinematic-intro" id="cinematicIntro" aria-label="Soil Steps introduction">
+  <div class="cinematic-grain" aria-hidden="true"></div>
+  <div class="cinematic-glow cinematic-glow--a" aria-hidden="true"></div>
+  <div class="cinematic-glow cinematic-glow--b" aria-hidden="true"></div>
+
+  <div class="cinematic-field" aria-hidden="true">
+    <span class="field-line field-line--1"></span>
+    <span class="field-line field-line--2"></span>
+    <span class="field-line field-line--3"></span>
+    <span class="field-line field-line--4"></span>
+    <span class="seed-light"></span>
+  </div>
+
+  <div class="cinematic-copy">
+    <p class="cinematic-kicker">A different kind of future</p>
+    <div class="cinematic-statement">
+      <span class="cinematic-line">The future</span>
+      <span class="cinematic-line cinematic-line--accent">starts from the ground.</span>
+    </div>
+    <p class="cinematic-sub">Where every step can change what comes next.</p>
+  </div>
+
+  <div class="cinematic-mark" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+
+  <button class="cinematic-skip" id="cinematicSkip" type="button">
+    Enter <span>→</span>
+  </button>
+
+  <div class="cinematic-progress" aria-hidden="true"><span></span></div>
+</section>
+
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand" aria-label="Soil Steps home">
+      <img src="assets/logo-icon.png" alt="" class="nav-brand-icon">
+      <span class="nav-brand-word">Soil Steps</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="mission.html">Mission & Vision</a>
+      <a href="journey.html">Our Journey</a>
+      <a href="investors.html">Investors</a>
+      <a href="farmers.html">Farmers Meet</a>
+      <a href="community.html">Community</a>
+      <a href="team.html">Team</a>
+      <a href="founder.html">Founder</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="mission.html">Mission & Vision</a>
+    <a href="journey.html">Our Journey</a>
+    <a href="investors.html">Investors</a>
+    <a href="farmers.html">Farmers Meet</a>
+    <a href="community.html">Community</a>
+    <a href="team.html">Team</a>
+    <a href="founder.html">Founder</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero-pin-wrap" id="heroPinWrap">
+    <div class="hero" id="hero">
+      <div class="hero-backdrop" aria-hidden="true">
+        <div class="hero-field hero-field-a"></div>
+        <div class="hero-field hero-field-b" id="heroFieldB"></div>
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+        <svg class="hero-horizon" viewBox="0 0 1440 900" preserveAspectRatio="none">
+          <path d="M0,760 C 240,700 480,820 720,760 C 960,700 1200,820 1440,760 L1440,900 L0,900 Z" fill="var(--sage)" opacity="0.55"/>
+          <path d="M0,820 C 240,780 480,860 720,820 C 960,780 1200,860 1440,820 L1440,900 L0,900 Z" fill="var(--forest)" opacity="0.08"/>
+        </svg>
+        <div class="hero-dust" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="hero-vignette"></div>
+      </div>
+
+      <div class="hero-content" id="heroContent">
+        <div class="hero-logo-scroll" id="heroLogoScroll">
+          <div class="hero-logo-wrap">
+            <div class="hero-logo-glow" aria-hidden="true"></div>
+            <img src="assets/logo-full.png" alt="Soil Steps" class="hero-logo">
+          </div>
+        </div>
+
+        <div class="hero-tamil-scroll" id="heroTamilScroll">
+          <h1 class="hero-tamil" lang="ta">உழந்தும் உழவே தலை</h1>
+        </div>
+
+        <div class="hero-mascot-scroll" id="heroMascotScroll">
+          <div class="hero-mascot-parallax" id="heroMascotParallax">
+            <div class="hero-mascot-float">
+              <img src="assets/mascot.png" alt="The Soil Steps mascot, a sprout-headed companion carrying a farmer's satchel" class="hero-mascot" id="heroMascot">
+            </div>
+            <div class="hero-mascot-shadow" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <button class="scroll-cue" id="scrollCue" aria-label="Scroll to explore">
+        <span class="scroll-cue-label">Scroll</span>
+        <span class="scroll-cue-track"><span class="scroll-cue-dot"></span></span>
+      </button>
+    </div>
+  </section>
+
+  <section class="intro-bridge reveal" id="introBridge">
+    <div class="intro-bridge-inner">
+      <span class="eyebrow eyebrow--light eyebrow--center">Why we exist</span>
+      <h2>Mechanisation has left small farms behind. We're building the machines that bring it back.</h2>
+      <p class="section-intro section-intro--light">Soil Steps designs affordable micro-machinery so tools built for large landholdings finally reach the small and marginal farms that need them most.</p>
+      <a href="mission.html" class="btn-outline btn-outline--light">Our Mission &amp; Vision →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="assets/logo-icon.png" alt="Soil Steps" class="footer-icon">
+      <p class="footer-tamil" lang="ta"></p>
+    </div>
+
+    <nav class="footer-links" aria-label="Footer">
+      <a href="mission.html">Mission & Vision</a>
+      <a href="journey.html">Our Journey</a>
+      <a href="investors.html">Investors</a>
+      <a href="farmers.html">Farmers Meet</a>
+      <a href="community.html">Community</a>
+      <a href="team.html">Team</a>
+      <a href="founder.html">Founder</a>
+    </nav>
+
+    <div class="footer-actions">
+      <a href="https://chat.whatsapp.com/KdXnLK70JwxG7caefhdeGS?s=cl&p=a&mlu=4&ilr=4" target="_blank" rel="noopener noreferrer">WhatsApp Community</a>
+      <a href="https://www.linkedin.com/in/siva-sooryaa-subburaj?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">Founder — LinkedIn</a>
+      <a class="footer-social-link" href="https://www.instagram.com/soilsteps?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span class="website-credit">Website by <strong>Aswin V K</strong></span>
+    <p>&copy; <span id="year"></span> Soil Steps. All rights reserved.</p>
+  </div>
+</footer>
+
+<a class="social-fab" href="https://www.instagram.com/soilsteps?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Visit Soil Steps on Instagram">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <defs>
+      <linearGradient id="igGrad" x1="2" y1="22" x2="22" y2="2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FEDA75"/>
+        <stop offset="0.3" stop-color="#FA7E1E"/>
+        <stop offset="0.6" stop-color="#D62976"/>
+        <stop offset="0.85" stop-color="#962FBF"/>
+        <stop offset="1" stop-color="#4F5BD5"/>
+      </linearGradient>
+    </defs>
+    <rect x="2" y="2" width="20" height="20" rx="6" fill="url(#igGrad)"/>
+    <circle cx="12" cy="12" r="5" stroke="#fff" stroke-width="1.6" fill="none"/>
+    <circle cx="17.4" cy="6.6" r="1.15" fill="#fff"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
